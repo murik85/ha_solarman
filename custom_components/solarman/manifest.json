@@ -1,0 +1,12 @@
+{
+  "domain": "solarman",
+  "name": "Solarman",
+  "codeowners": ["murik85"],
+  "config_flow": true,
+  "dependencies": ["network", "dhcp"],
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "quality_scale": "custom",
+  "requirements": ["propcache", "aiofiles", "pyyaml"],
+  "version": "2.3"
+}

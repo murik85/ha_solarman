@@ -1,0 +1,53 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Device is already configured"
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_host": "Invalid IP address",
+      "unknown": "Unexpected error"
+    },
+    "step": {
+      "user": {
+        "title": "Configuration",
+        "data": {
+          "name": "Device name",
+          "host": "IP address",
+          "port": "Port",
+          "transport": "Transport protocol",
+          "lookup_file": "Profile",
+          "mb_slave_id": "Slave ID"
+        }
+      }
+    }
+  },
+  "options": {
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_host": "Invalid IP address",
+      "unknown": "Unexpected error"
+    },
+    "step": {
+      "init": {
+        "title": "Configuration",
+        "data": {
+          "host": "IP address",
+          "port": "Port",
+          "transport": "Transport protocol",
+          "lookup_file": "Profile",
+          "mb_slave_id": "Slave ID"
+        }
+      }
+    }
+  },
+  "selector": {
+    "transport": {
+      "options": {
+        "tcp": "TCP",
+        "udp": "UDP",
+        "modbus_tcp": "Modbus TCP"
+      } 
+    }
+  }
+}
